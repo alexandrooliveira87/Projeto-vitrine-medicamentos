@@ -21,6 +21,6 @@
    "scripts": {
       "start": "ts-node src/index.ts",
       "typeorm": "typeorm-ts-node-commonjs",
-      "dev": "ts-node-dev --transpile-only --respawn  ./src/index.ts"
+      "dev": "ts-node-dev --transpile-only --inspect --respawn  ./src/index.ts"
    }
 }
